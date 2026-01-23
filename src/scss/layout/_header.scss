@@ -1,0 +1,103 @@
+.header {
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 14px;
+  @media screen and (min-width: 375px) {
+    justify-content: space-between;
+    .nav-logo {
+      font-family: Montserrat;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 18px;
+      letter-spacing: -3%;
+
+      display: flex;
+      align-items: center;
+    }
+    .logo-span {
+      font-style: italic;
+    }
+    .header-logo {
+      width: 24px;
+      height: 24px;
+    }
+    .header-nav {
+      display: none;
+    }
+    .nav-list {
+    }
+    .nav-item {
+    }
+    .nav-link {
+    }
+    .header-menu {
+      width: 28px;
+      height: 28px;
+    }
+    .header-social-list {
+      display: none;
+    }
+    .header-social-items {
+    }
+    .program-link {
+    }
+    .header-social-logo {
+    }
+  }
+  @media screen and (min-width: 768px) {
+    .header-logo {
+      width: 32px;
+      height: 32px;
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    .nav-logo {
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 18px;
+      letter-spacing: -3%;
+
+      display: flex;
+      align-items: center;
+    }
+    .logo-span {
+      font-style: italic;
+    }
+    .header-logo {
+      width: 24px;
+      height: 24px;
+    }
+    .header-nav {
+      display: flex;
+      margin-left: 25.5px;
+    }
+    .nav-list {
+      display: flex;
+      gap: 24px;
+    }
+    .nav-item {
+    }
+    .nav-link {
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 16px;
+      letter-spacing: -2%;
+      vertical-align: middle;
+    }
+    .header-menu {
+      display: none;
+    }
+    .header-social-list {
+      display: flex;
+      gap: 18px;
+    }
+    .header-social-items {
+    }
+    .program-link {
+    }
+    .header-social-logo {
+      height: 24px;
+      width: 24px;
+    }
+  }
+}
