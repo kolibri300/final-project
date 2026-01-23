@@ -1,4 +1,10 @@
 @charset "UTF-8";
+.container {
+  width: 735px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
 /***
     The new CSS reset - version 1.11 (last updated 20.9.2023)
     GitHub page: https://github.com/elad2412/the-new-css-reset
@@ -130,4 +136,198 @@ meter {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+html,
+body,
+p,
+ol,
+ul,
+li,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+button,
+input,
+select {
+  margin: 0;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+img,
+video {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+iframe {
+  border: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+body {
+  font-family: Montserrat;
+}
+
+.header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 14px;
+}
+
+@media screen and (min-width: 375px){
+  .container {
+    width: 375px;
+  }
+  .header {
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+       -moz-box-pack: justify;
+            justify-content: space-between;
+  }
+  .header .nav-logo {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -3%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+       -moz-box-align: center;
+            align-items: center;
+  }
+  .header .logo-span {
+    font-style: italic;
+  }
+  .header .header-logo {
+    width: 24px;
+    height: 24px;
+  }
+  .header .header-nav {
+    display: none;
+  }
+  .header .header-menu {
+    width: 28px;
+    height: 28px;
+  }
+  .header .header-social-list {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px){
+  .container {
+    width: 768px;
+  }
+  .header .header-logo {
+    width: 32px;
+    height: 32px;
+  }
+}
+
+@media screen and (min-width: 1200px){
+  .container {
+    width: 1200px;
+  }
+  .header .nav-logo {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -3%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+       -moz-box-align: center;
+            align-items: center;
+  }
+  .header .logo-span {
+    font-style: italic;
+  }
+  .header .header-logo {
+    width: 24px;
+    height: 24px;
+  }
+  .header .header-nav {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: flex;
+    margin-left: 25.5px;
+  }
+  .header .nav-list {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: flex;
+    gap: 24px;
+  }
+  .header .nav-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: -2%;
+    vertical-align: middle;
+  }
+  .header .header-menu {
+    display: none;
+  }
+  .header .header-social-list {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: flex;
+    gap: 18px;
+  }
+  .header .header-social-logo {
+    height: 24px;
+    width: 24px;
+  }
 }
