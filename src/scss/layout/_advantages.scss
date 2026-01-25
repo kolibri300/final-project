@@ -1,0 +1,37 @@
+.advantages {
+    background-color: #1E1823;
+   
+
+    @media screen and (min-width: 375px) {
+
+        .advantages-list {
+            display: flex;
+            column-gap: 38px;
+            flex-direction: column;
+
+
+        }
+
+        .advantages-item {}
+
+        .advantages-svg {
+
+            
+        }
+
+        .advantages-title {
+            color: #FFFFFF;
+            font-family: "Montserrat";
+            font-size: 18px;
+
+        }
+
+        .advantages-text {
+            color: #FFFFFFB2;
+            font-family: "Montserrat";
+            font-size: 14px;
+
+
+        }
+    }
+}
