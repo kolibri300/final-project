@@ -1,0 +1,159 @@
+ .taste {
+
+    @media screen and (min-width: 375px) {
+        .taste-title {
+            padding-top: 128px;
+            margin-bottom: 28px;
+            font-family: "Montserrat";
+            font-weight: 600;
+            font-style: "SemiBold";
+            font-size: 24px;
+            line-height: 28px;
+            letter-spacing: -3%;
+            text-align: center;
+            text-transform: uppercase;
+
+        }
+
+        .taste-span {
+            color: #FD9222;
+            font-family: "Montserrat";
+            font-weight: 600;
+            font-style: "SemiBold";
+            font-size: 24px;
+            line-height: 28px;
+            letter-spacing: -3%;
+            text-align: center;
+            text-transform: uppercase;
+
+        }
+
+        .taste-text {
+             margin-bottom: 50px;
+            font-family: "Montserrat";
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 18px;
+            letter-spacing: -2%;
+            text-align: center;
+
+        }
+
+        .taste-list {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+
+        }
+
+        .taste-item {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            border-radius: 15px;
+        }
+
+        .taste-list-text {
+            font-family: "Montserrat";
+            font-weight: 600;
+            margin-top: auto;
+            font-size: 14px;
+            line-height: 18px;
+            letter-spacing: -2%;
+            text-transform: uppercase;
+
+        }
+
+
+
+
+
+        .taste-list .taste-item:nth-child(1) {
+            display: flex;
+            justify-content: end;
+            align-items: center;
+            flex-direction: column;
+            padding: 28px;
+            gap: 25px;
+            width: 335px;
+            height: 270px;
+            opacity: 1;
+            border-radius: 15px;
+            border-width: 1px;
+            color: #FFFFFF;
+            background-color: #FD9222;
+        }
+
+        .taste-list .taste-item:nth-child(2) {
+            display: flex;
+            justify-content: end;
+            align-items: center;
+            flex-direction: column;
+            padding: 28px;
+            gap: 25px;
+            width: 335px;
+            height: 270px;
+            opacity: 1;
+            border-radius: 15px;
+            border-width: 1px;
+            background-color: #FFFFFF;
+            border: 1px solid #FD9222
+        }
+
+        .taste-list .taste-item:nth-child(3) {
+            display: flex;
+            justify-content: end;
+            align-items: center;
+            flex-direction: column;
+            padding: 28px;
+            gap: 25px;
+            width: 335px;
+            height: 270px;
+            opacity: 1;
+            border-radius: 15px;
+            border-width: 1px;
+            color: #FFFFFF;
+            background-color: #1E1823;
+        }
+
+        .taste-list .taste-item:nth-child(4) {
+            display: flex;
+            justify-content: end;
+            align-items: center;
+            flex-direction: column;
+            padding: 28px;
+            gap: 25px;
+            width: 335px;
+            height: 270px;
+            opacity: 1;
+            border-radius: 15px;
+            border-width: 1px;
+            background-color: #FFFFFF;
+            border: 1px solid #FD9222
+        }
+
+        .taste-img {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+    }
+
+    .taste-list {
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        gap: 20px;
+
+        @media screen and (min-width: 768px) {
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+        @media screen and (min-width: 1200px) {
+            flex-wrap: nowrap;
+        }
+    }
+
+}
