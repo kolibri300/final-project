@@ -1,0 +1,128 @@
+.advantages {
+    background-color: #1E1823;
+
+
+    @media screen and (min-width: 375px) {
+
+        .advantages-list {
+            display: flex;
+            column-gap: 38px;
+            flex-direction: column;
+
+
+        }
+
+        .advantages-item {}
+
+        .advantages-svg {
+            width: 62px;
+            height: 62px;
+            padding: 15px;
+            border: 1px solid #FFFFFF80;
+            border-radius: 365px;
+            margin-bottom: 22px;
+        }
+
+        .advantages-title {
+            color: #FFFFFF;
+            font-family: "Montserrat";
+            font-size: 18px;
+
+
+        }
+
+        .advantages-text {
+            color: #FFFFFFB2;
+            font-family: "Montserrat";
+            font-size: 14px;
+            margin-top: 18px;
+            margin-bottom: 32px;
+
+        }
+    }
+
+    @media screen and (min-width: 768px) {
+        .advantages {
+            background-color: #1E1823;
+
+        }
+
+        .advantages-list {
+            display: flex;
+            flex-direction: column;
+            gap: 32px;
+        }
+
+        .advantages-item {
+            position: relative;
+        }
+
+        .advantages-svg {
+            width: 62px;
+            height: 62px;
+            padding: 15px;
+            border: 1px solid #FFFFFF80;
+            border-radius: 365px;
+            margin-bottom: 22px;
+            margin-top: 50px;
+
+        }
+
+        .advantages-title {
+            color: #FFFFFF;
+            font-family: "Montserrat";
+            font-size: 18px;
+        }
+
+        .advantages-text {
+            color: #FFFFFFB2;
+            font-family: "Montserrat";
+            font-size: 14px;
+
+        }
+
+        .advantages-list {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 44px 88px;
+        }
+
+        .advantages-item:nth-child(3) {
+            grid-column: 1 / 2;
+        }
+    }
+
+    @media screen and (min-width: 1200px) {
+
+        .advantages-list {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            gap: 50px;
+        }
+
+        .advantages-item {
+            position: relative;
+            padding-right: 40px;
+        }
+
+        .advantages-item::after {
+            content: "";
+            position: absolute;
+            top: 25%;
+            bottom: 25%;
+            right: 0;
+            width: 3px;
+            background-color: rgba(255, 255, 255, 0.3);
+        }
+
+        .advantages-item:last-child::after {
+            display: none;
+        }
+    }
+
+
+
+
+
+}
