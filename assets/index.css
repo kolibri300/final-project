@@ -5,6 +5,10 @@
   margin: 0 auto;
 }
 
+body {
+  background-color: #fafafa;
+}
+
 /***
     The new CSS reset - version 1.11 (last updated 20.9.2023)
     GitHub page: https://github.com/elad2412/the-new-css-reset
@@ -207,6 +211,12 @@ body {
   font-family: Montserrat;
 }
 
+:root {
+  --black: #111111;
+  --purple: #1e1823;
+  --orange: #fd9222;
+}
+
 .header {
   display: -webkit-box;
   display: -webkit-flex;
@@ -217,7 +227,7 @@ body {
 }
 
 .advantages {
-  background-color: #1E1823;
+  background-color: #1e1823;
 }
 
 @media screen and (min-width: 375px){
@@ -255,12 +265,48 @@ body {
   .header .header-nav {
     display: none;
   }
+  .header .nav-link {
+    -webkit-transition: color 0.4s;
+    -moz-transition: color 0.4s;
+    transition: color 0.4s;
+    position: relative;
+  }
+  .header .nav-link:hover {
+    color: var(--orange);
+  }
+  .header .nav-link::after {
+    -webkit-transition: width 0.4s;
+    -moz-transition: width 0.4s;
+    transition: width 0.4s;
+    content: "";
+    display: block;
+    width: 0;
+    height: 1px;
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    background-color: var(--orange);
+  }
+  .header .nav-link:hover::after {
+    width: 55.81%;
+  }
   .header .header-menu {
     width: 28px;
     height: 28px;
   }
   .header .header-social-list {
     display: none;
+  }
+  .header .header-social-items {
+    -webkit-transition-property: fill;
+    -moz-transition-property: fill;
+    transition-property: fill;
+    -webkit-transition-duration: 0.5s;
+       -moz-transition-duration: 0.5s;
+            transition-duration: 0.5s;
+  }
+  .header .header-social-items:hover {
+    fill: var(--orange);
   }
   .advantages .advantages-list {
     display: -webkit-box;
@@ -276,6 +322,7 @@ body {
        -moz-box-orient: vertical;
        -moz-box-direction: normal;
             flex-direction: column;
+    background-color: var(--purple);
   }
   .advantages .advantages-svg {
     width: 62px;
@@ -286,7 +333,7 @@ body {
     margin-bottom: 22px;
   }
   .advantages .advantages-title {
-    color: #FFFFFF;
+    color: #ffffff;
     font-family: "Montserrat";
     font-size: 18px;
   }
@@ -296,6 +343,96 @@ body {
     font-size: 14px;
     margin-top: 18px;
     margin-bottom: 32px;
+  }
+  .made {
+    padding-top: 72px;
+  }
+  .made .made-play {
+    position: relative;
+    cursor: pointer;
+  }
+  .made .made-video {
+    border-radius: 15px;
+    pointer-events: none;
+  }
+  .made .made-wrap {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: flex;
+    gap: 20px;
+    margin-top: 32px;
+    -webkit-flex-wrap: wrap;
+            flex-wrap: wrap;
+  }
+  .made .made-pause {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+       -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    width: 35px;
+    height: 35px;
+    pointer-events: none;
+  }
+  .made .made-title {
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -3%;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--black);
+  }
+  .made .made-span {
+    color: var(--orange);
+  }
+  .made .made-list {
+    list-style: disc;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+       -moz-box-orient: vertical;
+       -moz-box-direction: normal;
+            flex-direction: column;
+    gap: 24px;
+    margin-bottom: 20px;
+  }
+  .made .made-wrap-text {
+    background-color: #ffffff;
+    padding: 20px 14px;
+    border-radius: 15px;
+  }
+  .made .made-list::marker {
+    font-size: 8px;
+    color: #4c4c4c;
+  }
+  .made .made-wrap-title {
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: var(--black);
+    margin-bottom: 20px;
+  }
+  .made .made-item {
+    margin-left: 16px;
+  }
+  .made .made-text {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -2%;
+    color: var(--black);
   }
 }
 
@@ -308,7 +445,7 @@ body {
     height: 32px;
   }
   .advantages .advantages {
-    background-color: #1E1823;
+    background-color: #1e1823;
   }
   .advantages .advantages-list {
     display: -webkit-box;
@@ -336,7 +473,7 @@ body {
     margin-top: 50px;
   }
   .advantages .advantages-title {
-    color: #FFFFFF;
+    color: #ffffff;
     font-family: "Montserrat";
     font-size: 18px;
   }
@@ -352,6 +489,18 @@ body {
   }
   .advantages .advantages-item:nth-child(3) {
     grid-column: 1/2;
+  }
+  .made {
+    padding-top: 100px;
+  }
+  .made .made-wrap-text {
+    padding: 32px;
+  }
+  .made .made-wrap-title {
+    margin-bottom: 28px;
+  }
+  .made .made-wrap {
+    margin-top: 50px;
   }
 }
 
@@ -445,5 +594,20 @@ body {
   }
   .advantages .advantages-item:last-child::after {
     display: none;
+  }
+  .made {
+    padding-top: 128px;
+  }
+  .made .made-video {
+    width: 600px;
+  }
+  .made .made-wrap-text {
+    width: 516px;
+  }
+  .made .made-wrap {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+       -moz-box-align: center;
+            align-items: center;
   }
 }
