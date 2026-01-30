@@ -1,0 +1,99 @@
+@use "../utils/mixins" as m;
+.product {
+  padding-top: 72px;
+  .product-title {
+    @include m.title(20px, 24px, var(--black));
+  }
+  .product-span {
+    @include m.title(20px, 24px, var(--orange));
+  }
+  .splide {
+    padding-top: 32px;
+  }
+  .splide__slide {
+    padding: 32px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    border: 1px solid #1111111a;
+    border-radius: 15px;
+  }
+  .product-slide-title {
+    margin-bottom: 5px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -2%;
+    text-transform: uppercase;
+    color: var(--black);
+    margin-top: 8px;
+  }
+  .product-slide-img {
+    height: 201px;
+    width: 230px;
+  }
+  .product-slide-text {
+    margin-bottom: 18px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: -2%;
+    color: #111111b2;
+  }
+  .product-slide-btn {
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: var(--black);
+    padding: 8px 20px;
+
+    border-radius: 100px;
+    border: 1px #1111111a solid;
+
+    background-color: #fafafa;
+  }
+}
+@media screen and (min-width: 375px) {
+  .splide__pagination {
+    bottom: -33px;
+  }
+
+  .splide__pagination__page {
+    background: #1111111a;
+    width: 13px;
+    height: 13px;
+    border-radius: 16px;
+    opacity: 1;
+    transition:
+      width 0.3s,
+      background-color 0.3s;
+    margin: 0;
+    margin-right: 13px;
+  }
+
+  .splide__pagination__page.is-active {
+    background-color: orange;
+    height: 13px;
+    width: 28px;
+    transform: scale(1);
+  }
+}
+@media screen and (min-width: 768px) {
+  .splide__pagination {
+    bottom: -45px;
+  }
+  .product {
+    padding-top: 100px;
+    .splide {
+      padding-top: 50px;
+    }
+  }
+}
+@media screen and (min-width: 1200px) {
+  .product {
+    padding-top: 41px;
+  }
+}
