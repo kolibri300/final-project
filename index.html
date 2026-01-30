@@ -7,6 +7,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css"
+      rel="stylesheet"
+    />
+    <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
@@ -177,8 +181,111 @@
   <div class="made-break"></div>
 </section>
 
-      <section class="product">
-  <h1 class="product-title"><span class="product-span"></span></h1>
+      <section class="product container">
+  <h1 class="product-title">
+    Our
+    <span class="product-span">PRODUCTS</span>
+  </h1>
+
+  <div
+    id="mySliderPr"
+    class="splide"
+    role="group"
+    aria-label="Splide Basic HTML Example"
+  >
+    <div class="splide__track">
+      <ul class="splide__list">
+        <li class="splide__slide">
+          <img
+            class="product-slide-img"
+            src="/final-project/assets/orange@1x.jpg"
+            srcset="/final-project/assets/orange@1x.jpg 1x, /final-project/assets/orange@2x.jpg 2x"
+            alt="orange"
+          />
+          <h3 class="product-slide-title">ORANGE</h3>
+          <p class="product-slide-text">Dark chocolate</p>
+          <button class="product-slide-btn">45 UAH</button>
+        </li>
+        <li class="splide__slide">
+          <img
+            class="product-slide-img"
+            src="/final-project/assets/apple@1x.jpg"
+            srcset="/final-project/assets/apple@1x.jpg 1x, /final-project/assets/apple@2x.jpg 2x"
+            alt="apple"
+          />
+          <h3 class="product-slide-title">APPLE&CRANBERRY</h3>
+          <p class="product-slide-text">Milk chocolate</p>
+          <button class="product-slide-btn">50 UAH</button>
+        </li>
+        <li class="splide__slide">
+          <img
+            class="product-slide-img"
+            src="/final-project/assets/lime@1x.jpg"
+            srcset="/final-project/assets/lime@1x.jpg 1x, /final-project/assets/lime@2x.jpg 2x"
+            alt="lime"
+          />
+          <h3 class="product-slide-title">lime&sea salt</h3>
+          <p class="product-slide-text">Dark chocolate</p>
+          <button class="product-slide-btn">66 UAH</button>
+        </li>
+        <li class="splide__slide">
+          <img
+            class="product-slide-img"
+            src="/final-project/assets/pineapple@1x.jpg"
+            srcset="/final-project/assets/pineapple@1x.jpg 1x, /final-project/assets/pineapple@2x.jpg 2x"
+            alt="pineapple"
+          />
+          <h3 class="product-slide-title">pineapple</h3>
+          <p class="product-slide-text">Dark chocolate</p>
+          <button class="product-slide-btn">54 UAH</button>
+        </li>
+        <li class="splide__slide">
+          <img
+            class="product-slide-img"
+            src="/final-project/assets/classmilk@1x.jpg"
+            srcset="/final-project/assets/classmilk@1x.jpg 1x, /final-project/assets/classmilk@2x.jpg 2x"
+            alt="classmilk"
+          />
+          <h3 class="product-slide-title">Classic</h3>
+          <p class="product-slide-text">Milk chocolate</p>
+          <button class="product-slide-btn">45 UAH</button>
+        </li>
+        <li class="splide__slide">
+          <img
+            class="product-slide-img"
+            src="/final-project/assets/honey@1x.jpg"
+            srcset="/final-project/assets/honey@1x.jpg 1x, /final-project/assets/honey@2x.jpg 2x"
+            alt="honey"
+          />
+          <h3 class="product-slide-title">honey</h3>
+          <p class="product-slide-text">Milk chocolate</p>
+          <button class="product-slide-btn">50 UAH</button>
+        </li>
+        <li class="splide__slide">
+          <img
+            class="product-slide-img"
+            src="/final-project/assets/roasted@1x.jpg"
+            srcset="/final-project/assets/roasted@1x.jpg 1x, /final-project/assets/roasted@2x.jpg 2x"
+            alt="roasted"
+          />
+          <h3 class="product-slide-title">Roasted fruits</h3>
+          <p class="product-slide-text">Dark chocolate</p>
+          <button class="product-slide-btn">66 UAH</button>
+        </li>
+        <li class="splide__slide">
+          <img
+            class="product-slide-img"
+            src="/final-project/assets/classwhite@1x.jpg"
+            srcset="/final-project/assets/classwhite@1x.jpg 1x, /final-project/assets/classwhite@2x.jpg 2x"
+            alt="classwhite"
+          />
+          <h3 class="product-slide-title">Classic</h3>
+          <p class="product-slide-text">White chocolate</p>
+          <button class="product-slide-btn">54 UAH</button>
+        </li>
+      </ul>
+    </div>
+  </div>
 </section>
 
       <section class="top">
@@ -249,7 +356,9 @@
   </ul>
 </footer>
 
-    
-    <script src="./src/js/video.js"></script>
   </body>
+  <script src="./src/js/video.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+  <script src="src/js/productSlide.js"></script>
+  
 </html>
