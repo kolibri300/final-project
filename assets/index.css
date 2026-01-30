@@ -229,7 +229,23 @@ body {
 .advantages {
   background-color: #1e1823;
 }
-
+.taste .taste-list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+     -moz-box-orient: vertical;
+     -moz-box-direction: normal;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+     -moz-box-align: center;
+          align-items: center;
+  gap: 20px;
+}
 @media screen and (min-width: 375px){
   .container {
     width: 375px;
@@ -344,6 +360,207 @@ body {
     margin-top: 18px;
     margin-bottom: 32px;
   }
+  .taste .taste-title {
+    padding-top: 128px;
+    margin-bottom: 28px;
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-style: "SemiBold";
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -3%;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .taste .taste-span {
+    color: #FD9222;
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-style: "SemiBold";
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -3%;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .taste .taste-text {
+    margin-bottom: 50px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -2%;
+    text-align: center;
+  }
+  .taste .taste-list {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+       -moz-box-pack: center;
+            justify-content: center;
+    gap: 20px;
+  }
+  .taste .taste-item {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+       -moz-box-orient: vertical;
+       -moz-box-direction: normal;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+       -moz-box-pack: justify;
+            justify-content: space-between;
+    border-radius: 15px;
+  }
+  .taste .taste-list-text {
+    font-family: "Montserrat";
+    font-weight: 600;
+    margin-top: auto;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -2%;
+    text-transform: uppercase;
+  }
+  .taste .taste-list .taste-item:nth-child(1) {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: flex;
+    -webkit-box-pack: end;
+    -webkit-justify-content: end;
+       -moz-box-pack: end;
+            justify-content: end;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+       -moz-box-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+       -moz-box-orient: vertical;
+       -moz-box-direction: normal;
+            flex-direction: column;
+    padding: 28px;
+    gap: 25px;
+    width: 335px;
+    height: 270px;
+    opacity: 1;
+    border-radius: 15px;
+    border-width: 1px;
+    color: #FFFFFF;
+    background-color: #FD9222;
+  }
+  .taste .taste-list .taste-item:nth-child(2) {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: flex;
+    -webkit-box-pack: end;
+    -webkit-justify-content: end;
+       -moz-box-pack: end;
+            justify-content: end;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+       -moz-box-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+       -moz-box-orient: vertical;
+       -moz-box-direction: normal;
+            flex-direction: column;
+    padding: 28px;
+    gap: 25px;
+    width: 335px;
+    height: 270px;
+    opacity: 1;
+    border-radius: 15px;
+    border-width: 1px;
+    background-color: #FFFFFF;
+    border: 1px solid #FD9222;
+  }
+  .taste .taste-list .taste-item:nth-child(3) {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: flex;
+    -webkit-box-pack: end;
+    -webkit-justify-content: end;
+       -moz-box-pack: end;
+            justify-content: end;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+       -moz-box-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+       -moz-box-orient: vertical;
+       -moz-box-direction: normal;
+            flex-direction: column;
+    padding: 28px;
+    gap: 25px;
+    width: 335px;
+    height: 270px;
+    opacity: 1;
+    border-radius: 15px;
+    border-width: 1px;
+    color: #FFFFFF;
+    background-color: #1E1823;
+  }
+  .taste .taste-list .taste-item:nth-child(4) {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: flex;
+    -webkit-box-pack: end;
+    -webkit-justify-content: end;
+       -moz-box-pack: end;
+            justify-content: end;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+       -moz-box-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+       -moz-box-orient: vertical;
+       -moz-box-direction: normal;
+            flex-direction: column;
+    padding: 28px;
+    gap: 25px;
+    width: 335px;
+    height: 270px;
+    opacity: 1;
+    border-radius: 15px;
+    border-width: 1px;
+    background-color: #FFFFFF;
+    border: 1px solid #FD9222;
+  }
+  .taste .taste-img {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+       -moz-box-orient: vertical;
+       -moz-box-direction: normal;
+            flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+       -moz-box-align: center;
+            align-items: center;
+  }
   .made {
     padding-top: 72px;
   }
@@ -435,7 +652,6 @@ body {
     color: var(--black);
   }
 }
-
 @media screen and (min-width: 768px){
   .container {
     width: 768px;
@@ -490,6 +706,16 @@ body {
   .advantages .advantages-item:nth-child(3) {
     grid-column: 1/2;
   }
+  .taste .taste-list {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+       -moz-box-orient: horizontal;
+       -moz-box-direction: normal;
+            flex-direction: row;
+    -webkit-flex-wrap: wrap;
+            flex-wrap: wrap;
+  }
   .made {
     padding-top: 100px;
   }
@@ -503,7 +729,6 @@ body {
     margin-top: 50px;
   }
 }
-
 @media screen and (min-width: 1200px){
   .container {
     width: 1200px;
@@ -594,6 +819,10 @@ body {
   }
   .advantages .advantages-item:last-child::after {
     display: none;
+  }
+  .taste .taste-list {
+    -webkit-flex-wrap: nowrap;
+            flex-wrap: nowrap;
   }
   .made {
     padding-top: 128px;
