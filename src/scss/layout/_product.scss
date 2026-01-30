@@ -90,6 +90,13 @@
     .splide {
       padding-top: 50px;
     }
+
+    .product-title {
+      @include m.title(24px, 28px, var(--black));
+    }
+    .product-span {
+      @include m.title(24px, 28px, var(--orange));
+    }
   }
 }
 @media screen and (min-width: 1200px) {

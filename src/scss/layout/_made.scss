@@ -77,7 +77,13 @@
   @media screen and (min-width: 768px) {
     padding-top: 100px;
     .made-wrap-text {
+      margin: 0 auto;
       padding: 32px;
+      width: 614px;
+    }
+    .made-play {
+      margin: 0 auto;
+      width: 614px;
     }
     .made-wrap-title {
       margin-bottom: 28px;
@@ -90,9 +96,11 @@
     padding-top: 128px;
     .made-video {
       width: 600px;
+      margin: none;
     }
     .made-wrap-text {
       width: 516px;
+      margin: none;
     }
     .made-wrap {
       align-items: center;
