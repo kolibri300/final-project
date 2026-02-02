@@ -214,6 +214,14 @@ body {
   font-family: Montserrat;
 }
 
+.is-hidden {
+  display: none;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
 :root {
   --black: #111111;
   --purple: #1e1823;
@@ -332,6 +340,151 @@ body {
 .explore {
   -webkit-background-size: 100% auto;
           background-size: 100% auto;
+}
+
+.burger-menu {
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+     -moz-box-orient: vertical;
+     -moz-box-direction: normal;
+          flex-direction: column;
+  top: 0;
+  right: 0;
+  width: 220px;
+  height: 100vh;
+  -webkit-transition: right 1s;
+  -moz-transition: right 1s;
+  transition: right 1s;
+  background-color: var(--purple);
+}
+
+.is-hidden-burger {
+  right: -220px;
+}
+
+.burger-menu-svg-wrap {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+     -moz-box-pack: end;
+          justify-content: flex-end;
+  padding-top: 24px;
+  padding-right: 32px;
+}
+
+.burger-menu-close {
+  width: 32px;
+  height: 32px;
+  fill: white;
+  -webkit-transition-property: fill;
+  -moz-transition-property: fill;
+  transition-property: fill;
+  -webkit-transition-duration: 0.5s;
+     -moz-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  cursor: pointer;
+}
+
+.burger-menu-close:hover {
+  fill: var(--orange);
+}
+
+.burger-menu-nav {
+  height: auto;
+  padding-top: 100px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+     -moz-box-orient: vertical;
+     -moz-box-direction: normal;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+     -moz-box-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+     -moz-box-pack: justify;
+          justify-content: space-between;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+     -moz-box-flex: 1;
+          flex: 1;
+}
+
+.burger-menu-site {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: flex;
+  gap: 18px;
+  padding-bottom: 24px;
+  padding-left: 32px;
+  width: 100%;
+}
+
+.burger-menu-site-logo {
+  width: 24px;
+  height: 24px;
+  -webkit-transition-property: fill;
+  -moz-transition-property: fill;
+  transition-property: fill;
+  -webkit-transition-duration: 0.5s;
+     -moz-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  fill: white;
+}
+
+.burger-menu-site-logo:hover {
+  fill: var(--orange);
+}
+
+.burger-menu-nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: -2%;
+  color: white;
+  vertical-align: middle;
+}
+
+.burger-menu-link {
+  -webkit-transition: color 0.4s;
+  -moz-transition: color 0.4s;
+  transition: color 0.4s;
+  position: relative;
+}
+
+.burger-menu-link:hover {
+  color: var(--orange);
+}
+
+.burger-menu-list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+     -moz-box-orient: vertical;
+     -moz-box-direction: normal;
+          flex-direction: column;
+  gap: 24px;
 }
 
 @media screen and (min-width: 375px){
@@ -903,6 +1056,9 @@ body {
   .a-container {
     width: 768px;
   }
+  .header {
+    padding: 24px 0;
+  }
   .header .header-logo {
     width: 32px;
     height: 32px;
@@ -1055,6 +1211,12 @@ body {
   .explore .explore-wrap {
     padding: 72px 118px;
     gap: 24px;
+  }
+  .burger-menu {
+    width: 290px;
+  }
+  .is-hidden-burger {
+    right: -290px;
   }
 }
 
