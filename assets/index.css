@@ -8,6 +8,10 @@ body {
   background-color: #fafafa;
 }
 
+.a-container {
+  margin: 0 auto;
+}
+
 /***
     The new CSS reset - version 1.11 (last updated 20.9.2023)
     GitHub page: https://github.com/elad2412/the-new-css-reset
@@ -324,8 +328,17 @@ body {
   border: 1px rgba(17, 17, 17, 0.1019607843) solid;
   background-color: #fafafa;
 }
+
+.explore {
+  -webkit-background-size: 100% auto;
+          background-size: 100% auto;
+}
+
 @media screen and (min-width: 375px){
   .container {
+    width: 375px;
+  }
+  .a-container {
     width: 375px;
   }
   .header {
@@ -817,9 +830,77 @@ body {
     letter-spacing: -2%;
     text-align: center;
   }
+  .explore {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url("src/img/background/whiskMob@1x.png");
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("src/img/background/whiskMob@1x.png");
+    background-image: -moz-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("src/img/background/whiskMob@1x.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("src/img/background/whiskMob@1x.png");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .explore .explore-wrap {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+       -moz-box-orient: vertical;
+       -moz-box-direction: normal;
+            flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+       -moz-box-align: center;
+            align-items: center;
+    gap: 24px;
+    padding: 63px 4.5px;
+  }
+  .explore .explore-title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -3%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+  .explore .explore-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -2%;
+    text-align: center;
+    color: #ffffff;
+  }
+  .explore .explore-btn {
+    background-color: var(--orange);
+    padding: 12px 28px;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #ffffff;
+    border-radius: 100px;
+  }
 }
+
+@media screen and (min-width: 375px) and (min-device-pixel-ratio: 2), screen and (min-width: 375px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 375px) and (min--moz-device-pixel-ratio: 2), screen and (min-width: 375px) and (min-resolution: 192dpi), screen and (min-width: 375px) and (min-resolution: 2dppx){
+  .explore {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url("src/img/background/whiskMob@2x.png");
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("src/img/background/whiskMob@2x.png");
+    background-image: -moz-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("src/img/background/whiskMob@2x.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("src/img/background/whiskMob@2x.png");
+  }
+}
+
 @media screen and (min-width: 768px){
   .container {
+    padding: 0 32px;
+    width: 768px;
+  }
+  .a-container {
     width: 768px;
   }
   .header .header-logo {
@@ -954,9 +1035,43 @@ body {
   .review .splide {
     margin-top: 49px;
   }
+  .explore {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url("src/img/background/whiskTab@1x.png");
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("src/img/background/whiskTab@1x.png");
+    background-image: -moz-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("src/img/background/whiskTab@1x.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("src/img/background/whiskTab@1x.png");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .explore .explore-title {
+    font-size: 24px;
+    line-height: 28px;
+    width: 378px;
+  }
+  .explore .explore-btn {
+    font-size: 18px;
+    padding: 14px 40px;
+  }
+  .explore .explore-wrap {
+    padding: 72px 118px;
+    gap: 24px;
+  }
 }
+
+@media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min--moz-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx){
+  .explore {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url("src/img/background/whiskTab@2x.png");
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("src/img/background/whiskTab@2x.png");
+    background-image: -moz-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("src/img/background/whiskTab@2x.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("src/img/background/whiskTab@2x.png");
+  }
+}
+
 @media screen and (min-width: 1200px){
   .container {
+    width: 1200px;
+  }
+  .a-container {
     width: 1200px;
   }
   .header .nav-logo {
@@ -1055,11 +1170,15 @@ body {
   }
   .made .made-video {
     width: 600px;
-    margin: none;
+    margin: 0;
   }
   .made .made-wrap-text {
     width: 516px;
-    margin: none;
+    margin: 0;
+  }
+  .made .made-play {
+    width: 600px;
+    margin: 0;
   }
   .made .made-wrap {
     -webkit-box-align: center;
@@ -1081,5 +1200,26 @@ body {
   }
   .review .review-slide-img {
     left: 140px;
+  }
+  .explore {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url("src/img/background/whiskDes@1x.png");
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("src/img/background/whiskDes@1x.png");
+    background-image: -moz-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("src/img/background/whiskDes@1x.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("src/img/background/whiskDes@1x.png");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .explore .explore-wrap {
+    padding: 72px 332px;
+    gap: 24px;
+  }
+}
+
+@media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min--moz-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx){
+  .explore {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url("src/img/background/whiskDes@2x.png");
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("src/img/background/whiskDes@2x.png");
+    background-image: -moz-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("src/img/background/whiskDes@2x.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("src/img/background/whiskDes@2x.png");
   }
 }
