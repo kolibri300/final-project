@@ -39,8 +39,7 @@ body {
 html {
   -moz-text-size-adjust: none;
   -webkit-text-size-adjust: none;
-  -ms-text-size-adjust: none;
-      text-size-adjust: none;
+  text-size-adjust: none;
 }
 
 /* Reapply the pointer cursor for anchor tags */
@@ -101,9 +100,6 @@ meter {
   color: unset;
 }
 :-ms-input-placeholder {
-  color: unset;
-}
-::-ms-input-placeholder {
   color: unset;
 }
 ::placeholder {
@@ -240,6 +236,102 @@ body {
 .advantages {
   background-color: #1e1823;
 }
+
+.taste .taste-item {
+  overflow: hidden;
+}
+.taste .taste-list-add {
+  position: absolute;
+  padding: 28px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  top: 0;
+  left: 0;
+  -webkit-transform: translateY(100%);
+     -moz-transform: translateY(100%);
+      -ms-transform: translateY(100%);
+          transform: translateY(100%);
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  -moz-transition: transform 1s, -moz-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s, -moz-transform 1s;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+     -moz-box-orient: vertical;
+     -moz-box-direction: normal;
+          flex-direction: column;
+}
+.taste .taste-item:hover .taste-list-add {
+  -webkit-transform: translateY(0);
+     -moz-transform: translateY(0);
+      -ms-transform: translateY(0);
+          transform: translateY(0);
+}
+.taste .taste-list-add-title {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: -3%;
+  text-transform: uppercase;
+  color: #111111;
+}
+.taste .taste-list-add-btn {
+  margin-top: 8px;
+  background-color: var(--orange);
+  padding: 6px 16px;
+  border-radius: 35px;
+  margin-right: 6px;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 10px;
+  leading-trim: NONE;
+  line-height: 12px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: #ffffff;
+}
+.taste .taste-list-add-bene {
+  margin-top: 8px;
+  background-color: #fafafa;
+  padding: 6px 16px;
+  border: solid 1px var(--orange);
+  border-radius: 35px;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 10px;
+  leading-trim: NONE;
+  line-height: 12px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: #111111;
+}
+.taste .taste-list-add-text {
+  margin-top: 14px;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 14px;
+  leading-trim: NONE;
+  line-height: 18px;
+  letter-spacing: -2%;
+  color: #111111;
+  overflow: hidden;
+  height: auto;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+     -moz-box-flex: 1;
+          flex-grow: 1;
+}
 .taste .taste-list {
   display: -webkit-box;
   display: -webkit-flex;
@@ -338,8 +430,7 @@ body {
 }
 
 .explore {
-  -webkit-background-size: 100% auto;
-          background-size: 100% auto;
+  background-size: 100% auto;
 }
 
 .burger-menu {
@@ -663,6 +754,7 @@ body {
        -moz-box-pack: justify;
             justify-content: space-between;
     border-radius: 15px;
+    position: relative;
   }
   .taste .taste-list-text {
     font-family: "Montserrat";
