@@ -1,4 +1,5 @@
 
+
 const mySlider = new Splide('#mySliderPr',
     {
         type   : 'loop',
@@ -43,6 +44,16 @@ const mySliderRe = new Splide('#mySliderRe',
     }
 )
 
+const buyChoc = new Splide("#BuyChocolate",
+     {
+        type   : 'loop',
+        focus: 0,
+        arrows: false,
+        perPage: 3,
+        gap: '16px',
+    }
+)
 
 mySlider.mount()
 mySliderRe.mount()
+buyChoc.mount()
