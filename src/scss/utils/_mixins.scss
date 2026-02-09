@@ -1,0 +1,9 @@
+@mixin title($size, $height, $color) {
+  font-weight: 600;
+  font-size: $size;
+  line-height: $height;
+  letter-spacing: -3%;
+  text-align: center;
+  text-transform: uppercase;
+  color: $color;
+}

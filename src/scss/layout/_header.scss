@@ -29,6 +29,25 @@
     .nav-item {
     }
     .nav-link {
+      transition: color 0.4s;
+      position: relative;
+    }
+    .nav-link:hover {
+      color: var(--orange);
+    }
+    .nav-link::after {
+      transition: width 0.4s;
+      content: "";
+      display: block;
+      width: 0;
+      height: 1px;
+      position: absolute;
+      left: 0;
+      bottom: -8px;
+      background-color: var(--orange);
+    }
+    .nav-link:hover::after {
+      width: 55.81%;
     }
     .header-menu {
       width: 28px;
@@ -38,6 +57,11 @@
       display: none;
     }
     .header-social-items {
+      transition-property: fill;
+      transition-duration: 0.5s;
+    }
+    .header-social-items:hover {
+      fill: var(--orange);
     }
     .program-link {
     }
@@ -45,6 +69,7 @@
     }
   }
   @media screen and (min-width: 768px) {
+    padding: 24px 0;
     .header-logo {
       width: 32px;
       height: 32px;
