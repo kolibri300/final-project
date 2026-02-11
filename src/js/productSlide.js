@@ -49,8 +49,8 @@ const buyChoc = new Splide("#BuyChocolate",
         type   : 'loop',
         focus: 0,
         arrows: false,
-        perPage: 3,
-        gap: '16px',
+        perPage: 1,
+         gap: '16px',
     }
 )
 

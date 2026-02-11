@@ -1,22 +1,136 @@
-<div
-  id="BuyChocolate"
-  class="splide"
-  role="group"
-  aria-label="Splide Basic HTML Example"
->
-  <div class="splide__track">
-    <ul class="splide__list">
-      <li class="splide">
+<div menu-data-buy-modal class="modal-content is-hidden">
+  <div class="buychoc">
+    <svg class="buychoc-svg" menu-data-modal-buy-close>
+      <use href="src/img/icons/symbol-defs.svg#icon-exit"></use>
+    </svg>
+    <h2 class="buychoc-title"><span class="buychoc-span">BUY</span> NOW</h2>
+
+    <ul class="buychoc-list">
+      <li class="buychoc-item">
         <img
-          src="src\img\another\AlotchocModal@1x.jpg"
+          class="buychoc-img"
+          src="src/img/another/chocModal@1x.jpg"
           srcset="
-            src\img\another\AlotchocModal@1x.jpg 1x,
-            src\img\another\AlotchocModal@2x.jpg 2x
+            src/img/another/chocModal@1x.jpg 1x,
+            src/img/another/chocModal@2x.jpg 2x
           "
           alt="choc"
         />
-        <p>200 g</p>
+        <p class="buychoc-text">100 g</p>
+      </li>
+      <li class="buychoc-item">
+        <img
+          class="buychoc-img"
+          src="src/img/another/AlotchocModal@1x.jpg"
+          srcset="
+            src/img/another/AlotchocModal@1x.jpg 1x,
+            src/img/another/AlotchocModal@2x.jpg 2x
+          "
+          alt="choc"
+        />
+        <p class="buychoc-text">200 g</p>
+      </li>
+      <li class="buychoc-item">
+        <img
+          class="buychoc-img"
+          src="src/img/another/LOTSchocModal@1x.jpg"
+          srcset="
+            src/img/another/LOTSchocModal@1x.jpg 1x,
+            src/img/another/LOTSchocModal@2x.jpg 2x
+          "
+          alt="choc"
+        />
+        <p class="buychoc-text">300 g</p>
       </li>
     </ul>
+    <div
+      id="BuyChocolate"
+      class="splide buychoc-slider"
+      role="group"
+      aria-label="Splide Basic HTML Example"
+    >
+      <div class="splide__track">
+        <ul class="splide__list">
+          <li class="splide__slide buychoc-item">
+            <img
+              class="buychoc-img"
+              src="src/img/another/chocModal@1x.jpg"
+              srcset="
+                src/img/another/chocModal@1x.jpg 1x,
+                src/img/another/chocModal@2x.jpg 2x
+              "
+              alt="choc"
+            />
+            <p class="buychoc-text">100 g</p>
+          </li>
+          <li class="splide__slide buychoc-item">
+            <img
+              class="buychoc-img"
+              src="src/img/another/AlotchocModal@1x.jpg"
+              srcset="
+                src/img/another/AlotchocModal@1x.jpg 1x,
+                src/img/another/AlotchocModal@2x.jpg 2x
+              "
+              alt="choc"
+            />
+            <p class="buychoc-text">200 g</p>
+          </li>
+          <li class="splide__slide buychoc-item">
+            <img
+              class="buychoc-img"
+              src="src/img/another/LOTSchocModal@1x.jpg"
+              srcset="
+                src/img/another/LOTSchocModal@1x.jpg 1x,
+                src/img/another/LOTSchocModal@2x.jpg 2x
+              "
+              alt="choc"
+            />
+            <p class="buychoc-text">300 g</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <form class="buychoc-form">
+      <label class="buychoc-label">Personal information</label>
+      <div class="buychoc-form-wrap-input">
+        <input class="buychoc-input" placeholder="Name" type="text" />
+        <input class="buychoc-input" placeholder="Surname" type="text" />
+      </div>
+      <label class="buychoc-label">Email</label>
+      <input class="buychoc-input" placeholder="Enter your email" type="text" />
+      <div class="buychoc-from-wrap">
+        <label class="buychoc-label">Phone number</label>
+        <input class="buychoc-number" placeholder="Phone number" type="text" />
+        <div class="buychoc-from-wrap-wrap">
+          <svg class="buychoc-wrap-svg-uk">
+            <use href="src/img/icons/symbol-defs.svg#icon-flag"></use>
+          </svg>
+          <label class="buychoc-wrap-add">380+</label>
+        </div>
+      </div>
+      <label class="buychoc-label">Card number</label>
+      <div class="buychoc-wrap-card">
+        <input class="buychoc-card" placeholder="Enter card" type="text" />
+        <svg class="buychoc-wrap-svg-card">
+          <use href="src/img/icons/symbol-defs.svg#icon-mastercard"></use>
+        </svg>
+      </div>
+
+      <label class="buychoc-label">Comment</label>
+      <textarea
+        rows="3"
+        class="buychoc-area"
+        placeholder="Enter text"
+      ></textarea>
+      <button
+        menu-data-thx-buy-open
+        menu-data-modal-buy-close-btn
+        class="buychoc-btn"
+        type="button"
+      >
+        Submit
+      </button>
+    </form>
   </div>
 </div>
