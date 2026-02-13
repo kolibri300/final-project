@@ -3,7 +3,7 @@
   @media screen and (min-width: 375px) {
     background-image:
       linear-gradient(#00000033, #00000033),
-      url("/final-project/assets/background/whiskMob@1x.jpg");
+      url("/final-project/assets/whiskMob@1x.jpg");
     background-repeat: no-repeat;
     background-position: center;
     @media (min-device-pixel-ratio: 2),
@@ -11,7 +11,7 @@
       (min-resolution: 2dppx) {
       background-image:
         linear-gradient(#00000033, #00000033),
-        url("/final-project/assets/background/whiskMob@2x.jpg");
+        url("/final-project/assets/whiskMob@2x.jpg");
     }
     .explore-wrap {
       display: flex;
@@ -62,7 +62,7 @@
   @media screen and (min-width: 768px) {
     background-image:
       linear-gradient(#00000033, #00000033),
-      url("/final-project/assets/background/whiskTab@1x.jpg");
+      url("/final-project/assets/whiskTab@1x.jpg");
     background-repeat: no-repeat;
     background-position: center;
     @media (min-device-pixel-ratio: 2),
@@ -70,7 +70,7 @@
       (min-resolution: 2dppx) {
       background-image:
         linear-gradient(#00000033, #00000033),
-        url("/final-project/assets/background/whiskTab@2x.jpg");
+        url("/final-project/assets/whiskTab@2x.jpg");
     }
     .explore-title {
       font-size: 24px;
@@ -89,7 +89,7 @@
   @media screen and (min-width: 1200px) {
     background-image:
       linear-gradient(#00000033, #00000033),
-      url("/final-project/assets/background/whiskDes@1x.jpg");
+      url("/final-project/assets/whiskDes@1x.jpg");
     background-repeat: no-repeat;
     background-position: center;
     @media (min-device-pixel-ratio: 2),
@@ -97,7 +97,7 @@
       (min-resolution: 2dppx) {
       background-image:
         linear-gradient(#00000033, #00000033),
-        url("/final-project/assets/background/whiskDes@2x.jpg");
+        url("/final-project/assets/whiskDes@2x.jpg");
     }
     .explore-wrap {
       padding: 72px 332px;
