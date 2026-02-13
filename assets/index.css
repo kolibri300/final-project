@@ -299,6 +299,13 @@ body {
   letter-spacing: 0%;
   vertical-align: middle;
   color: #ffffff;
+  -webkit-transition: background-color 0.5s, color 0.5s, border-color 0.5s;
+  -moz-transition: background-color 0.5s, color 0.5s, border-color 0.5s;
+  transition: background-color 0.5s, color 0.5s, border-color 0.5s;
+}
+.taste .taste-list-add-btn:hover {
+  color: #fd9222;
+  background-color: #fcf1e0;
 }
 .taste .taste-list-add-bene {
   margin-top: 8px;
@@ -417,6 +424,14 @@ body {
   display: block;
   margin: 0 auto;
   margin-top: 20px;
+  -webkit-transition: background-color 0.5s, color 0.5s, border-color 0.5s;
+  -moz-transition: background-color 0.5s, color 0.5s, border-color 0.5s;
+  transition: background-color 0.5s, color 0.5s, border-color 0.5s;
+}
+
+.top-btn:hover {
+  color: #fd9222;
+  background-color: #fcf1e0;
 }
 
 .top-spam {
@@ -505,6 +520,13 @@ body {
   border-radius: 100px;
   border: 1px rgba(17, 17, 17, 0.1019607843) solid;
   background-color: #fafafa;
+  -webkit-transition: background-color 0.5s, color 0.5s, border-color 0.5s;
+  -moz-transition: background-color 0.5s, color 0.5s, border-color 0.5s;
+  transition: background-color 0.5s, color 0.5s, border-color 0.5s;
+}
+.product .product-slide-btn:hover {
+  color: white;
+  background-color: #fd9222;
 }
 
 .explore {
@@ -1125,6 +1147,14 @@ body {
   padding: 12px 28px;
   border-radius: 100px;
   margin-top: 4px;
+  -webkit-transition: background-color 0.5s, color 0.5s;
+  -moz-transition: background-color 0.5s, color 0.5s;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.buychoc-btn:hover {
+  background-color: #fcf1e0;
+  color: #fd9222;
 }
 
 .buychoc-from-wrap {
@@ -1425,6 +1455,14 @@ body {
   padding: 12px 28px;
   border-radius: 100px;
   margin-top: 4px;
+  -webkit-transition: background-color 0.5s, color 0.5s, border-color 0.5s;
+  -moz-transition: background-color 0.5s, color 0.5s, border-color 0.5s;
+  transition: background-color 0.5s, color 0.5s, border-color 0.5s;
+}
+
+.reviewmodal-btn:hover {
+  color: #fd9222;
+  background-color: #fcf1e0;
 }
 
 .reviewmodal-from-wrap {
@@ -1652,13 +1690,24 @@ body {
     line-height: 100%;
     letter-spacing: 0%;
     color: #ffffff;
+    -webkit-transition: background-color 0.5s, color 0.5s, border-color 0.5s;
+    -moz-transition: background-color 0.5s, color 0.5s, border-color 0.5s;
+    transition: background-color 0.5s, color 0.5s, border-color 0.5s;
   }
   section.chocolate1 .chocolate-wrap-btn .chocolate-btn:nth-child(1) {
     background-color: #fd9222;
   }
+  section.chocolate1 .chocolate-wrap-btn .chocolate-btn:nth-child(1):hover {
+    color: #fd9222;
+    background-color: #fcf1e0;
+  }
   section.chocolate1 .chocolate-wrap-btn .chocolate-btn:nth-child(2) {
     background-color: none;
     border: 1px solid #ffffff;
+  }
+  section.chocolate1 .chocolate-wrap-btn .chocolate-btn:nth-child(2):hover {
+    color: #fd9222;
+    border-color: #fd9222;
   }
   section.chocolate1 .chocolate-anchor {
     font-weight: 500;
@@ -2021,6 +2070,13 @@ body {
     display: block;
     margin: 0 auto;
     margin-top: 65px;
+    -webkit-transition: background-color 0.5s, color 0.5s, border-color 0.5s;
+    -moz-transition: background-color 0.5s, color 0.5s, border-color 0.5s;
+    transition: background-color 0.5s, color 0.5s, border-color 0.5s;
+  }
+  .review .review-btn:hover {
+    color: #fd9222;
+    background-color: #fcf1e0;
   }
   .review .review-title {
     font-weight: 600;
@@ -2136,6 +2192,13 @@ body {
     letter-spacing: 0%;
     color: #ffffff;
     border-radius: 100px;
+    -webkit-transition: background-color 0.5s, color 0.5s, border-color 0.5s;
+    -moz-transition: background-color 0.5s, color 0.5s, border-color 0.5s;
+    transition: background-color 0.5s, color 0.5s, border-color 0.5s;
+  }
+  .explore .explore-btn:hover {
+    color: #fd9222;
+    background-color: #fcf1e0;
   }
   .buymodal .buymodal-svg {
     position: absolute;
@@ -2262,6 +2325,13 @@ body {
     bottom: 0;
     right: 0;
     border-radius: 100px;
+    -webkit-transition: background-color 0.5s, color 0.5s, border-color 0.5s;
+    -moz-transition: background-color 0.5s, color 0.5s, border-color 0.5s;
+    transition: background-color 0.5s, color 0.5s, border-color 0.5s;
+  }
+  .last .explore-btn:hover {
+    color: #fd9222;
+    border-color: #fd9222;
   }
 }
 
