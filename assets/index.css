@@ -1655,7 +1655,7 @@ body {
   }
   section.chocolate1 .chocolate-wrap {
     border-radius: 30px;
-    background-image: url("/final-project/assets/background/bagchocMob@1x.jpg");
+    background-image: url("/final-project/assets/bagchocMob@1x.jpg");
     height: 620px;
     padding: 20px;
     padding-top: 395px;
@@ -2140,10 +2140,10 @@ body {
     text-align: center;
   }
   .explore {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url("/final-project/assets/background/whiskMob@1x.jpg");
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/final-project/assets/background/whiskMob@1x.jpg");
-    background-image: -moz-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/final-project/assets/background/whiskMob@1x.jpg");
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/final-project/assets/background/whiskMob@1x.jpg");
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url("/final-project/assets/whiskMob@1x.jpg");
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/final-project/assets/whiskMob@1x.jpg");
+    background-image: -moz-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/final-project/assets/whiskMob@1x.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/final-project/assets/whiskMob@1x.jpg");
     background-repeat: no-repeat;
     background-position: center;
   }
@@ -2262,7 +2262,7 @@ body {
     height: 169px;
     opacity: 1;
     z-index: 1;
-    background-image: url("/final-project/assets/background/alotofchoc@1x.jpg");
+    background-image: url("/final-project/assets/alotofchoc@1x.jpg");
     background-repeat: no-repeat;
     background-position: center;
   }
@@ -2337,19 +2337,19 @@ body {
 
 @media screen and (min-width: 375px) and (min-device-pixel-ratio: 2), screen and (min-width: 375px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 375px) and (min--moz-device-pixel-ratio: 2), screen and (min-width: 375px) and (min-resolution: 192dpi), screen and (min-width: 375px) and (min-resolution: 2dppx){
   section.chocolate1 .chocolate-wrap {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url("/final-project/assets/background/bagchocMob@2x.jpg");
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/final-project/assets/background/bagchocMob@2x.jpg");
-    background-image: -moz-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/final-project/assets/background/bagchocMob@2x.jpg");
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/final-project/assets/background/bagchocMob@2x.jpg");
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url("/final-project/assets/bagchocMob@2x.jpg");
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/final-project/assets/bagchocMob@2x.jpg");
+    background-image: -moz-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/final-project/assets/bagchocMob@2x.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/final-project/assets/bagchocMob@2x.jpg");
   }
   .explore {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url("/final-project/assets/background/whiskMob@2x.jpg");
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/final-project/assets/background/whiskMob@2x.jpg");
-    background-image: -moz-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/final-project/assets/background/whiskMob@2x.jpg");
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/final-project/assets/background/whiskMob@2x.jpg");
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url("/final-project/assets/whiskMob@2x.jpg");
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/final-project/assets/whiskMob@2x.jpg");
+    background-image: -moz-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/final-project/assets/whiskMob@2x.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/final-project/assets/whiskMob@2x.jpg");
   }
   .last .last-div {
-    background-image: url("/final-project/assets/background/alotofchoc@2x.jpg");
+    background-image: url("/final-project/assets/alotofchoc@2x.jpg");
   }
 }
 
@@ -2416,7 +2416,7 @@ body {
     grid-column: 1/2;
   }
   section.chocolate1 .chocolate-wrap {
-    background-image: url("/final-project/assets/background/bagchocTab@1x.jpg");
+    background-image: url("/final-project/assets/bagchocTab@1x.jpg");
     padding: 40px;
     padding-top: 671px;
     height: 890px;
@@ -2602,10 +2602,10 @@ body {
     margin-top: 49px;
   }
   .explore {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url("/final-project/assets/background/whiskTab@1x.jpg");
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/final-project/assets/background/whiskTab@1x.jpg");
-    background-image: -moz-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/final-project/assets/background/whiskTab@1x.jpg");
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/final-project/assets/background/whiskTab@1x.jpg");
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url("/final-project/assets/whiskTab@1x.jpg");
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/final-project/assets/whiskTab@1x.jpg");
+    background-image: -moz-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/final-project/assets/whiskTab@1x.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/final-project/assets/whiskTab@1x.jpg");
     background-repeat: no-repeat;
     background-position: center;
   }
@@ -2976,13 +2976,13 @@ body {
 
 @media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min--moz-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx){
   section.chocolate1 .chocolate-wrap {
-    background-image: url("/final-project/assets/background/bagchocTab@2x.jpg");
+    background-image: url("/final-project/assets/bagchocTab@2x.jpg");
   }
   .explore {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url("/final-project/assets/background/whiskTab@2x.jpg");
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/final-project/assets/background/whiskTab@2x.jpg");
-    background-image: -moz-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/final-project/assets/background/whiskTab@2x.jpg");
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/final-project/assets/background/whiskTab@2x.jpg");
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url("/final-project/assets/whiskTab@2x.jpg");
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/final-project/assets/whiskTab@2x.jpg");
+    background-image: -moz-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/final-project/assets/whiskTab@2x.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/final-project/assets/whiskTab@2x.jpg");
   }
 }
 
@@ -3091,7 +3091,7 @@ body {
   }
   section.chocolate1 .chocolate-wrap {
     position: relative;
-    background-image: url("/final-project/assets/background/bagchocDes@1x.jpg");
+    background-image: url("/final-project/assets/bagchocDes@1x.jpg");
     height: 600px;
     padding-top: 381px;
   }
@@ -3153,10 +3153,10 @@ body {
     left: 140px;
   }
   .explore {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url("/final-project/assets/background/whiskDes@1x.jpg");
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/final-project/assets/background/whiskDes@1x.jpg");
-    background-image: -moz-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/final-project/assets/background/whiskDes@1x.jpg");
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/final-project/assets/background/whiskDes@1x.jpg");
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url("/final-project/assets/whiskDes@1x.jpg");
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/final-project/assets/whiskDes@1x.jpg");
+    background-image: -moz-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/final-project/assets/whiskDes@1x.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/final-project/assets/whiskDes@1x.jpg");
     background-repeat: no-repeat;
     background-position: center;
   }
@@ -3192,12 +3192,12 @@ body {
 
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min--moz-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx){
   section.chocolate1 .chocolate-wrap {
-    background-image: url("/final-project/assets/background/bagchocDes@2x.jpg");
+    background-image: url("/final-project/assets/bagchocDes@2x.jpg");
   }
   .explore {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url("/final-project/assets/background/whiskDes@2x.jpg");
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/final-project/assets/background/whiskDes@2x.jpg");
-    background-image: -moz-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/final-project/assets/background/whiskDes@2x.jpg");
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/final-project/assets/background/whiskDes@2x.jpg");
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url("/final-project/assets/whiskDes@2x.jpg");
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/final-project/assets/whiskDes@2x.jpg");
+    background-image: -moz-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/final-project/assets/whiskDes@2x.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/final-project/assets/whiskDes@2x.jpg");
   }
 }
