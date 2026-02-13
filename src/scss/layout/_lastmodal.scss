@@ -1,0 +1,125 @@
+.last {
+  width: 311px;
+  height: 350px;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: opacity 0.5s;
+
+  position: relative;
+  background-color: #ffffff;
+  @media screen and (min-width: 375px) {
+    .last-svg {
+      position: absolute;
+      width: 24px;
+      height: 24px;
+      top: 15px;
+      right: 14px;
+      z-index: 999;
+      fill: white;
+      transition: fill 0.8s;
+    }
+    .last-svg:hover {
+      fill: var(--orange);
+    }
+    .last-div {
+      width: 311px;
+      height: 169px;
+      opacity: 1;
+      z-index: 1;
+
+      background-image: url("src/img/background/alotofchoc@1x.jpg");
+      background-repeat: no-repeat;
+      background-position: center;
+      @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+        background-image: url("src/img/background/alotofchoc@2x.jpg");
+      }
+    }
+    .last-title {
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 24px;
+      letter-spacing: -3%;
+      color: #111111;
+    }
+    .last-text {
+      color: var(--orange);
+    }
+    .last-form {
+      position: relative;
+    }
+    .last-input {
+      margin-top: 24px;
+      font-family: Montserrat;
+      font-weight: 400;
+      font-size: 14px;
+      leading-trim: NONE;
+      line-height: 100%;
+      letter-spacing: -2%;
+      vertical-align: middle;
+      border-radius: 25px;
+      border: 1.5px solid #1111110d;
+      box-shadow: 0px 5.44px 5.44px 0px #00000008;
+      padding: 14px 18px;
+      width: 100%;
+    }
+    .last-input::placeholder {
+      color: #4040404d;
+    }
+    .last-wrap {
+      padding: 32px 24px;
+    }
+    .last-btn {
+      background-color: var(--orange);
+      font-family: Montserrat;
+      font-weight: 600;
+      font-size: 14px;
+      leading-trim: NONE;
+      line-height: 100%;
+      letter-spacing: 0;
+      text-align: center;
+      color: #ffffff;
+      padding: 17px 22px;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      border-radius: 100px;
+    }
+  }
+  @media screen and (min-width: 768px) {
+    width: 538px;
+    height: 412px;
+    border-radius: 15px;
+    .last-div {
+      width: 538px;
+      height: 196px;
+    }
+    .last-wrap {
+      padding: 40px;
+    }
+    .last-title {
+      font-size: 24px;
+      line-height: 28px;
+      width: 298px;
+    }
+    .last-btn {
+      padding: 16px 42px;
+      position: static;
+      height: 52px;
+      margin-top: 28px;
+    }
+    .last-input {
+      width: 313px;
+      padding: 14px 24px;
+      margin-top: 28px;
+    }
+    .last-form {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+    }
+  }
+  @media screen and (min-width: 1200px) {
+  }
+}

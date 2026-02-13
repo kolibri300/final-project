@@ -1,6 +1,7 @@
 @use "../utils/mixins" as m;
 .product {
   padding-top: 72px;
+  height: auto;
   .product-title {
     @include m.title(20px, 24px, var(--black));
   }

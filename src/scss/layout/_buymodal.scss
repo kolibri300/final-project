@@ -1,0 +1,95 @@
+.buymodal {
+  position: fixed;
+  transition: opacity 0.5s;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 84px 24px 170px 68px;
+  background-color: var(--orange);
+  width: 311px;
+  height: 350px;
+  border-radius: 15px;
+  overflow: hidden;
+  z-index: 998;
+  @media screen and (min-width: 375px) {
+    .buymodal-svg {
+      position: absolute;
+      width: 28px;
+
+      fill: #f16529;
+
+      height: 28px;
+      padding: 6px;
+      background-color: #fcf1e0;
+      border-radius: 100%;
+      position: absolute;
+      top: 14px;
+      right: 14px;
+      cursor: pointer;
+    }
+    .buymodal-title {
+      color: #fcf1e0;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 24px;
+      letter-spacing: -2%;
+      text-transform: uppercase;
+    }
+    .buymodal-text {
+      color: #ffffff;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 16px;
+      letter-spacing: -2%;
+      margin-top: 8px;
+    }
+    .buymodal-img {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 296.00001056411173px;
+      height: 399.0000142401371px;
+      top: 154.01px;
+      left: -72.14px;
+      transform: rotate(-17deg);
+    }
+  }
+  @media screen and (min-width: 768px) {
+    width: 516px;
+    height: 414px;
+    border-radius: 15px;
+
+    padding: 154px 44px 154px 163px;
+    .buymodal-svg {
+      width: 40px;
+      height: 40px;
+      padding: 8px;
+      top: 24px;
+      right: 26px;
+    }
+    .buymodal-title {
+      font-size: 24px;
+      line-height: 28px;
+    }
+    .buymodal-text {
+      font-family: Montserrat;
+      font-weight: 400;
+      font-size: 18px;
+      leading-trim: NONE;
+      line-height: 24px;
+      letter-spacing: -2%;
+    }
+    .buymodal-text span {
+      font-size: 24px;
+    }
+    .buymodal-img {
+      top: 116.53px;
+      left: -156px;
+      transform: rotate(-5deg);
+      width: 383.99998573870346px;
+      height: 515.9999808363827px;
+    }
+  }
+  @media screen and (min-width: 1200px) {
+  }
+}

@@ -1,0 +1,343 @@
+body {
+  overflow-x: hidden;
+}
+.modal-content {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  transition: opacity 1s;
+}
+.buychoc-list {
+  display: none;
+}
+.buychoc {
+  position: relative;
+  overflow-x: hidden;
+  width: 311px;
+  height: 500px;
+  overflow-y: auto;
+  background: #fafafa;
+  overscroll-behavior: contain;
+  padding: 32px 24px;
+  border-radius: 15px;
+}
+.buychoc-slider {
+  margin: 0 16px;
+}
+.buychoc-svg {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  width: 24px;
+  height: 24px;
+  fill: var(--black);
+  transition: fill 0.5s;
+  cursor: pointer;
+}
+.buychoc-svg:hover {
+  fill: var(--orange);
+}
+.buychoc-title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -3%;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--black);
+  margin-top: 16px;
+}
+.buychoc-span {
+  color: var(--orange);
+}
+.buychoc-item {
+  background-color: #ffffff;
+  border: 1px solid #1111111a;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 32px;
+  padding-bottom: 28px;
+  margin-top: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buychoc-text {
+  text-align: center;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: var(--black);
+  width: 96px;
+  padding: 8px 0;
+  background-color: #fafafa;
+  border: 1px solid #1111111a;
+  border-radius: 100px;
+  margin-top: 16px;
+  display: block;
+}
+.buychoc-img {
+  width: 167px;
+  height: 148px;
+}
+.buychoc-form {
+  margin-top: 59px;
+}
+.buychoc-label {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: -2%;
+  color: #000000;
+  margin-bottom: 8px;
+  margin-top: 4px;
+  display: block;
+}
+.buychoc-input {
+  box-shadow: 0px 5.44px 5.44px 0px #00000008;
+  border: 1.5px solid #1111110d;
+  border-radius: 8px;
+  margin-bottom: 14px;
+  padding: 14px 18px;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 14px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: -2%;
+  vertical-align: middle;
+  color: var(--black);
+  width: 100%;
+}
+.buychoc-input::placeholder {
+  color: #4040404d;
+}
+.buychoc-number::placeholder {
+  color: #4040404d;
+}
+.buychoc-card::placeholder {
+  color: #4040404d;
+}
+.buychoc-area::placeholder {
+  color: #4040404d;
+}
+.buychoc-number {
+  box-shadow: 0px 5.44px 5.44px 0px #00000008;
+  border: 1.5px solid #1111110d;
+  border-radius: 8px;
+  margin-bottom: 14px;
+  padding: 14px 29px 14px 109px;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 14px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: -2%;
+  vertical-align: middle;
+  color: var(--black);
+  width: 100%;
+}
+.buychoc-card {
+  box-shadow: 0px 5.44px 5.44px 0px #00000008;
+  border: 1.5px solid #1111110d;
+  border-radius: 8px;
+  margin-bottom: 14px;
+  padding: 14px 46px 14px 18px;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 14px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: -2%;
+  vertical-align: middle;
+  color: var(--black);
+  width: 100%;
+}
+.buychoc-area {
+  box-shadow: 0px 5.44px 5.44px 0px #00000008;
+  border: 1.5px solid #1111110d;
+  border-radius: 8px;
+  margin-bottom: 14px;
+  padding: 14px 18px;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: -2%;
+  vertical-align: middle;
+  color: var(--black);
+  width: 100%;
+}
+.buychoc-btn {
+  background: #fd9222;
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 14px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #ffffff;
+  padding: 12px 28px;
+  border-radius: 100px;
+  margin-top: 4px;
+}
+.buychoc-from-wrap {
+  position: relative;
+}
+.buychoc-wrap-add {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: -2%;
+  vertical-align: middle;
+  color: #000000;
+}
+.buychoc-wrap-svg-uk {
+  width: 24px;
+  height: 24px;
+}
+.buychoc-from-wrap-wrap {
+  position: absolute;
+  left: 18px;
+  bottom: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding-right: 8px;
+  border-right: 1px solid #1111110d;
+}
+.buychoc-wrap-card {
+  position: relative;
+}
+.buychoc-wrap-svg-card {
+  position: absolute;
+  width: 32px;
+  height: 21px;
+  bottom: 26px;
+  right: 14px;
+}
+@media screen and (min-width: 768px) {
+  .buychoc {
+    width: 609px;
+    padding: 48px;
+    height: 700px;
+  }
+  .buychoc-form {
+    margin-top: 40px;
+  }
+  .buychoc-item {
+    padding: 24px 20px 18px;
+  }
+  .buychoc-img {
+    width: 120px;
+    height: 107px;
+  }
+  .buychoc-form-wrap-input {
+    display: flex;
+    gap: 21px;
+  }
+  .buychoc-from-wrap-wrap {
+    gap: 18px;
+    padding-right: 32px;
+    left: 24px;
+    bottom: 24px;
+  }
+  .buychoc-wrap-add {
+    font-size: 18px;
+  }
+  .buychoc-wrap-svg-card {
+    right: 24px;
+    bottom: 29px;
+  }
+  .buychoc-number {
+    padding-left: 177px;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 18px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: -2%;
+    vertical-align: middle;
+  }
+  .buychoc-input {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 18px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: -2%;
+    vertical-align: middle;
+  }
+  .buychoc-area {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 18px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: -2%;
+    vertical-align: middle;
+  }
+  .buychoc-card {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 18px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: -2%;
+    vertical-align: middle;
+  }
+  .buychoc-svg {
+    width: 28px;
+    height: 28px;
+    top: 24px;
+    right: 24px;
+  }
+  .buychoc-title {
+    font-family: Montserrat;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 24px;
+    leading-trim: NONE;
+    line-height: 28px;
+    letter-spacing: -3%;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .buychoc-wrap-svg-uk {
+    width: 32px;
+    height: 32px;
+  }
+  .buychoc-wrap-svg-card {
+    width: 44;
+    height: 30;
+  }
+  .buychoc-slider {
+    display: none;
+  }
+  .buychoc-list {
+    display: flex;
+    gap: 16px;
+  }
+  .buychoc-btn {
+    padding: 14px 40px;
+  }
+  .buychoc-label {
+    font-size: 14px;
+  }
+}
+
+.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+}
