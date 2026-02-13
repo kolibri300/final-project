@@ -14,34 +14,10 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
-    <script type="module" crossorigin src="/final-project/assets/index-ff016b18.js"></script>
+    <script type="module" crossorigin src="/final-project/assets/index-fa605a91.js"></script>
     <link rel="stylesheet" href="/final-project/assets/index.css">
   </head>
   <body>
-    <div
-  id="BuyChocolate"
-  class="splide"
-  role="group"
-  aria-label="Splide Basic HTML Example"
->
-  <div class="splide__track">
-    <ul class="splide__list">
-      <li class="splide">
-        <img
-          src="src\img\another\AlotchocModal@1x.jpg"
-          srcset="
-            src\img\another\AlotchocModal@1x.jpg 1x,
-            src\img\another\AlotchocModal@2x.jpg 2x
-          "
-          alt="choc"
-        />
-        <p>200 g</p>
-      </li>
-    </ul>
-  </div>
-</div>
-
-    <a href="src/patials/buychocolatemodal.html">Check</a>
     <header class="header container">
   <a href="#" class="nav-logo"
     ><span class="logo-span">SIMPLY</span> CHOCOLATE
@@ -82,14 +58,24 @@
 </header>
 
     <main>
-      <section class="chocolate">
+      <section class="chocolate1 container">
   <div class="chocolate-wrap">
-    <h1 class="chocolate-title"></h1>
-    <div class="chocolate-wrap-btn">
-      <button class="chocolate-btn"></button>
-      <button class="chocolate-btn"></button>
-      <p class="chocolate-text"></p>
-      <a href="" class="chocolate-anchor"></a>
+    <div class="break"></div>
+    <h1 class="chocolate-title">
+      Treat yourself or a loved one to our finest ingredients for a moment of
+      pure delight!
+    </h1>
+    <div class="chocolate-wrap-wrap">
+      <div class="chocolate-wrap-btn">
+        <button class="chocolate-btn">Buy now</button>
+        <button class="chocolate-btn">How it’s made</button>
+      </div>
+      <a href="#made" class="chocolate-anchor">
+        scroll down
+        <svg class="chocolate-svg">
+          <use href="/final-project/assets/symbol-defs.svg#icon-drop"></use>
+        </svg>
+      </a>
     </div>
   </div>
 </section>
@@ -126,9 +112,9 @@
   </ul>
 </section>
 
-      <section class="taste">
+      <section class="taste container">
   <h2 class="taste-title">
-    IT ALL ADDS UP TO ONE EXCEPTIONAL<span class="taste-span">TASTE</span
+    IT ALL ADDS UP TO ONE EXCEPTIONAL<span class="taste-span"> TASTE </span
     >SENSATION
   </h2>
   <p class="taste-text">
@@ -396,34 +382,49 @@
 </section>
 
       <section class="top container">
-  <h2 class="top-title"><span class="top-spam">tOP</span>Sellers</h2>
+  <h2 class="top-title"><span class="top-spam">tOP</span> Sellers</h2>
   <ul class="top-list">
-    <li class="top-item  ">
-      <img class="top-img "  srcset="/final-project/assets/chocolateNut@1x.webp 1x, /final-project/assets/chocolateNut@2x.webp 2x"
-        src="src/img/webp/chocolateNut@1x.webp 1x" alt="1" /> 
-          <p class="top-text top-mobile-text">Crazy enough chocolate originates from a bean just like the coffee bean called Cacao. Cacao has been around for thousands of years and was first discovered by the Native American tribe called the Mayans.</p>
+    <li class="top-item">
+      <img
+        class="top-img"
+        srcset="/final-project/assets/chocolateNut@1x.webp 1x, /final-project/assets/chocolateNut@2x.webp 2x"
+        src="src/img/webp/chocolateNut@1x.webp 1x"
+        alt="1"
+      />
+      <p class="top-text top-mobile-text">
+        Crazy enough chocolate originates from a bean just like the coffee bean
+        called Cacao. Cacao has been around for thousands of years and was first
+        discovered by the Native American tribe called the Mayans.
+      </p>
     </li>
-    <li class="top-item ">
-      <img class="top-img"  srcset="/final-project/assets/piecechocolate@1x.webp 1x, /final-project/assets/piecechocolate@2x.webp 2x"
-        src="src/img/webp/piecechocolate@1x.webp 1x" alt="2"  />
+    <li class="top-item">
+      <img
+        class="top-img"
+        srcset="/final-project/assets/piecechocolate@1x.webp 1x, /final-project/assets/piecechocolate@2x.webp 2x"
+        src="src/img/webp/piecechocolate@1x.webp 1x"
+        alt="2"
+      />
     </li>
     <li class="top-item top-item--third">
-      <img class="top-img"  srcset="/final-project/assets/piecechocolateNut@1x.webp 1x, /final-project/assets/piecechocolateNut@2x.webp 2x"
-        src="src/img/webp/piecechocolateNut@1x.webp 1x" alt="3" />
+      <img
+        class="top-img"
+        srcset="/final-project/assets/piecechocolateNut@1x.webp 1x, /final-project/assets/piecechocolateNut@2x.webp 2x"
+        src="src/img/webp/piecechocolateNut@1x.webp 1x"
+        alt="3"
+      />
     </li>
   </ul>
   <div class="top-wrap">
-    <p class="top-text top-tablet">Crazy enough chocolate originates from a bean just like the coffee bean called Cacao. Cacao has been around for thousands of years and was first discovered by the Native American tribe called the Mayans.</p>
-     </div>
-     <div class="top-wrap-wrap">
-        <button class="top-btn">Buy now</button>
-     </div>
-    
-  </div>
+    <p class="top-text top-tablet">
+      Crazy enough chocolate originates from a bean just like the coffee bean
+      called Cacao. Cacao has been around for thousands of years and was first
+      discovered by the Native American tribe called the Mayans.
+    </p>
+    <button class="top-btn" menu-data-modal-buy-open>Buy now</button>
 
-  
+  </div>
 </section>
- 
+
       <section class="review container">
   <h2 class="review-title">
     <span class="review-span">chocolate</span> is loved
@@ -534,6 +535,7 @@
       </ul>
     </div>
   </div>
+  <button menu-data-modal-rev-open class="review-btn">Leave a review</button>
 </section>
 
       <section class="explore container">
@@ -545,20 +547,28 @@
       finest ingredients and handcrafted with the utmost care, each piece is a
       work of art that is sure to please.
     </p>
-    <button class="explore-btn">Subscribe</button>
+    <button menu-data-last-open class="explore-btn">Subscribe</button>
   </div>
 </section>
 
     </main>
     <footer class="footer container">
   <div class="footer-wrap">
-    <h2 class="footer-title"><span class="span-footer">Chcolate </span>a delicious cure for a bad day</h2>
+    <h2 class="footer-title">
+      <span class="span-footer">Chcolate </span>a delicious cure for a bad day
+    </h2>
     <div class="footer-wrap-link">
-      <p class="footer-text">Contact us</p>
-      <ul class="footer-list">
-        <li class="footer-item"><a href="" class="footer-link">+380 (68) 443-94-26</a></li>
-        <li class="footer-item"><a href="" class="footer-link">simplychoc@gmail.com</a></li>
-      </ul>
+      <div>
+        <p class="footer-text">Contact us</p>
+        <ul class="footer-list">
+          <li class="footer-item">
+            <a href="" class="footer-link">+380 (68) 443-94-26</a>
+          </li>
+          <li class="footer-item">
+            <a href="" class="footer-link">simplychoc@gmail.com</a>
+          </li>
+        </ul>
+      </div>
       <div class="footer-wrap-svg">
         <svg class="footer-svg">
           <use href="/final-project/assets/symbol-defs.svg#icon-instagram"></use>
@@ -587,6 +597,125 @@
     </li>
   </ul>
 </footer>
+
+    <div menu-data-buy-modal class="modal-content is-hidden">
+  <div class="buychoc">
+    <svg class="buychoc-svg" menu-data-modal-buy-close>
+      <use href="/final-project/assets/symbol-defs.svg#icon-exit"></use>
+    </svg>
+    <h2 class="buychoc-title"><span class="buychoc-span">BUY</span> NOW</h2>
+
+    <ul class="buychoc-list">
+      <li class="buychoc-item">
+        <img
+          class="buychoc-img"
+          src="/final-project/assets/chocModal@1x.jpg"
+          srcset="/final-project/assets/chocModal@1x.jpg 1x, /final-project/assets/chocModal@2x.jpg 2x"
+          alt="choc"
+        />
+        <p class="buychoc-text">100 g</p>
+      </li>
+      <li class="buychoc-item">
+        <img
+          class="buychoc-img"
+          src="/final-project/assets/AlotchocModal@1x.jpg"
+          srcset="/final-project/assets/AlotchocModal@1x.jpg 1x, /final-project/assets/AlotchocModal@2x.jpg 2x"
+          alt="choc"
+        />
+        <p class="buychoc-text">200 g</p>
+      </li>
+      <li class="buychoc-item">
+        <img
+          class="buychoc-img"
+          src="/final-project/assets/LOTSchocModal@1x.jpg"
+          srcset="/final-project/assets/LOTSchocModal@1x.jpg 1x, /final-project/assets/LOTSchocModal@2x.jpg 2x"
+          alt="choc"
+        />
+        <p class="buychoc-text">300 g</p>
+      </li>
+    </ul>
+    <div
+      id="BuyChocolate"
+      class="splide buychoc-slider"
+      role="group"
+      aria-label="Splide Basic HTML Example"
+    >
+      <div class="splide__track">
+        <ul class="splide__list">
+          <li class="splide__slide buychoc-item">
+            <img
+              class="buychoc-img"
+              src="/final-project/assets/chocModal@1x.jpg"
+              srcset="/final-project/assets/chocModal@1x.jpg 1x, /final-project/assets/chocModal@2x.jpg 2x"
+              alt="choc"
+            />
+            <p class="buychoc-text">100 g</p>
+          </li>
+          <li class="splide__slide buychoc-item">
+            <img
+              class="buychoc-img"
+              src="/final-project/assets/AlotchocModal@1x.jpg"
+              srcset="/final-project/assets/AlotchocModal@1x.jpg 1x, /final-project/assets/AlotchocModal@2x.jpg 2x"
+              alt="choc"
+            />
+            <p class="buychoc-text">200 g</p>
+          </li>
+          <li class="splide__slide buychoc-item">
+            <img
+              class="buychoc-img"
+              src="/final-project/assets/LOTSchocModal@1x.jpg"
+              srcset="/final-project/assets/LOTSchocModal@1x.jpg 1x, /final-project/assets/LOTSchocModal@2x.jpg 2x"
+              alt="choc"
+            />
+            <p class="buychoc-text">300 g</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <form class="buychoc-form">
+      <label class="buychoc-label">Personal information</label>
+      <div class="buychoc-form-wrap-input">
+        <input class="buychoc-input" placeholder="Name" type="text" />
+        <input class="buychoc-input" placeholder="Surname" type="text" />
+      </div>
+      <label class="buychoc-label">Email</label>
+      <input class="buychoc-input" placeholder="Enter your email" type="text" />
+      <div class="buychoc-from-wrap">
+        <label class="buychoc-label">Phone number</label>
+        <input class="buychoc-number" placeholder="Phone number" type="text" />
+        <div class="buychoc-from-wrap-wrap">
+          <svg class="buychoc-wrap-svg-uk">
+            <use href="/final-project/assets/symbol-defs.svg#icon-flag"></use>
+          </svg>
+          <label class="buychoc-wrap-add">380+</label>
+        </div>
+      </div>
+      <label class="buychoc-label">Card number</label>
+      <div class="buychoc-wrap-card">
+        <input class="buychoc-card" placeholder="Enter card" type="text" />
+        <svg class="buychoc-wrap-svg-card">
+          <use href="/final-project/assets/symbol-defs.svg#icon-mastercard"></use>
+        </svg>
+      </div>
+
+      <label class="buychoc-label">Comment</label>
+      <textarea
+        rows="4"
+        class="buychoc-area"
+        placeholder="Enter text"
+      ></textarea>
+      <button
+        menu-data-thx-buy-open
+        menu-data-modal-buy-close-btn
+        class="buychoc-btn"
+        type="button"
+      >
+        Submit
+      </button>
+    </form>
+  </div>
+</div>
 
     <div class="burger-menu is-hidden-burger" menu-data-modal>
   <div class="burger-menu-svg-wrap">
@@ -625,6 +754,103 @@
       </li>
     </ul>
   </nav>
+</div>
+
+    <div menu-data-thx-buy-modal class="buymodal is-hidden">
+  <svg menu-data-thx-buy-close class="buymodal-svg">
+    <use href="/final-project/assets/symbol-defs.svg#icon-exit"></use>
+  </svg>
+  <h2 class="buymodal-title">thank you!</h2>
+  <p class="buymodal-text">
+    We are glad that you ordered our chocolate and we are giving you a
+    <span> 20%</span>
+    discount on all our products.
+  </p>
+  <img
+    class="buymodal-img"
+    src="/final-project/assets/plateOfchok@1x.png"
+    srcset="/final-project/assets/plateOfchok@1x.png 1x, /final-project/assets/plateOfchok@1x.png 2x"
+    alt=""
+  />
+</div>
+
+    <div menu-data-rev-modal class="modal-content is-hidden">
+  <div class="reviewmodal">
+    <svg class="reviewmodal-svg" menu-data-modal-rev-close>
+      <use href="/final-project/assets/symbol-defs.svg#icon-exit"></use>
+    </svg>
+    <h2 class="reviewmodal-title">
+      LEAVE A REVIEW ABOUT
+      <span class="reviewmodal-span">OUR CHOCOLATE</span>
+    </h2>
+
+    <form class="reviewmodal-form">
+      <input class="reviewmodal-input" placeholder="Name" type="text" />
+      <input class="reviewmodal-input" placeholder="Surname" type="text" />
+      <div class="reviewmodal-from-wrap">
+        <input
+          class="reviewmodal-number"
+          placeholder="Phone number"
+          type="text"
+        />
+        <div class="reviewmodal-from-wrap-wrap">
+          <svg class="reviewmodal-wrap-svg-uk">
+            <use href="/final-project/assets/symbol-defs.svg#icon-flag"></use>
+          </svg>
+          <label class="reviewmodal-wrap-add">380+</label>
+        </div>
+      </div>
+      <textarea
+        rows="4"
+        class="reviewmodal-area"
+        placeholder="Enter text"
+      ></textarea>
+      <button
+        menu-data-modal-revthx-open
+        menu-data-modal-rev-close-btn
+        class="reviewmodal-btn"
+        type="button"
+      >
+        Send
+      </button>
+    </form>
+  </div>
+</div>
+
+    <div menu-data-revthx-modal class="buymodal is-hidden">
+  <svg menu-data-modal-revthx-close class="buymodal-svg">
+    <use href="/final-project/assets/symbol-defs.svg#icon-exit"></use>
+  </svg>
+  <h2 class="buymodal-title">thank you!</h2>
+  <p class="buymodal-text">
+    thank you for your feedback! We are so happy to hear from you!
+  </p>
+  <img
+    class="buymodal-img"
+    src="/final-project/assets/plateOfchok@1x.png"
+    srcset="/final-project/assets/plateOfchok@1x.png 1x, /final-project/assets/plateOfchok@1x.png 2x"
+    alt=""
+  />
+</div>
+
+    <div menu-data-last-modal class="modal-content is-hidden">
+  <div class="last">
+    <svg menu-data-last-close class="last-svg">
+      <use href="/final-project/assets/symbol-defs.svg#icon-exit"></use>
+    </svg>
+    <div class="last-div"></div>
+    <div class="last-wrap">
+      <h2 class="last-title">
+        EXPLORE OUR <span class="last-text">NEW CHOCOLATE</span> FIRST!
+      </h2>
+      <form class="last-form">
+        <input class="last-input" placeholder="Enter your email" type="text" />
+        <button menu-data-last-close-btn type="button" class="last-btn">
+          Submit
+        </button>
+      </form>
+    </div>
+  </div>
 </div>
 
 
