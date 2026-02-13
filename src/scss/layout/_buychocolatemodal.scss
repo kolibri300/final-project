@@ -249,9 +249,12 @@ body {
   }
   .buychoc-from-wrap-wrap {
     gap: 18px;
-    padding-right: 18px;
+    padding-right: 32px;
     left: 24px;
-    bottom: 28px;
+    bottom: 24px;
+  }
+  .buychoc-wrap-add {
+    font-size: 18px;
   }
   .buychoc-wrap-svg-card {
     right: 24px;
@@ -312,8 +315,8 @@ body {
     text-transform: uppercase;
   }
   .buychoc-wrap-svg-uk {
-    width: 32;
-    height: 32;
+    width: 32px;
+    height: 32px;
   }
   .buychoc-wrap-svg-card {
     width: 44;
