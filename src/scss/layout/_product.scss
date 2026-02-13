@@ -55,6 +55,15 @@
     border: 1px #1111111a solid;
 
     background-color: #fafafa;
+    transition:
+      background-color 0.5s,
+      color 0.5s,
+      border-color 0.5s;
+  }
+  .product-slide-btn:hover {
+    color: white;
+
+    background-color: #fd9222;
   }
 }
 @media screen and (min-width: 375px) {

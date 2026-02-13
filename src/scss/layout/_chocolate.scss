@@ -44,13 +44,26 @@ section.chocolate1 {
       line-height: 100%;
       letter-spacing: 0%;
       color: #ffffff;
+      transition:
+        background-color 0.5s,
+        color 0.5s,
+        border-color 0.5s;
     }
     .chocolate-wrap-btn .chocolate-btn:nth-child(1) {
       background-color: #fd9222;
     }
+    .chocolate-wrap-btn .chocolate-btn:nth-child(1):hover {
+      color: #fd9222;
+
+      background-color: #fcf1e0;
+    }
     .chocolate-wrap-btn .chocolate-btn:nth-child(2) {
       background-color: none;
       border: 1px solid #ffffff;
+    }
+    .chocolate-wrap-btn .chocolate-btn:nth-child(2):hover {
+      color: #fd9222;
+      border-color: #fd9222;
     }
     .chocolate-anchor {
       font-weight: 500;

@@ -189,6 +189,11 @@ body {
   padding: 12px 28px;
   border-radius: 100px;
   margin-top: 4px;
+  transition: background-color 0.5s, color 0.5s;
+}
+.buychoc-btn:hover {
+  background-color: #fcf1e0;
+  color: #fd9222;
 }
 .buychoc-from-wrap {
   position: relative;
