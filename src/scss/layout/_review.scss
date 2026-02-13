@@ -19,6 +19,15 @@
       display: block;
       margin: 0 auto;
       margin-top: 65px;
+      transition:
+        background-color 0.5s,
+        color 0.5s,
+        border-color 0.5s;
+    }
+    .review-btn:hover {
+      color: #fd9222;
+
+      background-color: #fcf1e0;
     }
 
     padding-top: 72px;

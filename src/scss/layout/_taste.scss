@@ -43,6 +43,15 @@
     letter-spacing: 0%;
     vertical-align: middle;
     color: #ffffff;
+    transition:
+      background-color 0.5s,
+      color 0.5s,
+      border-color 0.5s;
+  }
+  .taste-list-add-btn:hover {
+    color: #fd9222;
+
+    background-color: #fcf1e0;
   }
   .taste-list-add-bene {
     margin-top: 8px;

@@ -1,4 +1,3 @@
-
 .top {
   padding: 60px 0;
 }
@@ -67,6 +66,15 @@
   display: block;
   margin: 0 auto;
   margin-top: 20px;
+  transition:
+    background-color 0.5s,
+    color 0.5s,
+    border-color 0.5s;
+}
+.top-btn:hover {
+  color: #fd9222;
+
+  background-color: #fcf1e0;
 }
 
 .top-spam {

@@ -140,6 +140,15 @@
   padding: 12px 28px;
   border-radius: 100px;
   margin-top: 4px;
+  transition:
+    background-color 0.5s,
+    color 0.5s,
+    border-color 0.5s;
+}
+.reviewmodal-btn:hover {
+  color: #fd9222;
+
+  background-color: #fcf1e0;
 }
 .reviewmodal-from-wrap {
   position: relative;
