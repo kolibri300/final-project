@@ -1,0 +1,154 @@
+.footer {
+  background: linear-gradient(135deg, #1e1823, #2c2436);
+  color: #ffffff;
+  padding: 32px 20px;
+}
+
+.footer-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding-bottom: 32px;
+}
+
+.footer-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  max-width: 300px;
+}
+
+.span-footer {
+  color: #fd9222;
+}
+
+.footer-wrap-link {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+  gap: 14px;
+}
+
+.footer-text {
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.footer-list {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.footer-link {
+  color: #ffffff;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.footer-wrap-svg {
+  display: flex;
+  gap: 14px;
+}
+
+.footer-svg {
+  width: 24px;
+  height: 24px;
+  fill: #ffffff;
+}
+
+.footer-link-list {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  margin-top: 32px;
+}
+
+.footer-link-anchor {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 14px;
+}
+.footer-wrap-link {
+  display: flex;
+  gap: 113px;
+  flex-direction: row;
+}
+.footer-link-anchor {
+  transition: color 0.4s;
+  position: relative;
+}
+.footer-link-anchor:hover {
+  color: var(--orange);
+}
+.footer-link-anchor::after {
+  transition: width 0.4s;
+  content: "";
+  display: block;
+  width: 0;
+  height: 1px;
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+  background-color: var(--orange);
+}
+.footer-link-anchor:hover::after {
+  width: 55.81%;
+}
+.footer-svg {
+  transition-property: fill;
+  transition-duration: 0.5s;
+}
+.footer-svg:hover {
+  fill: var(--orange);
+}
+@media screen and (min-width: 768px) {
+  .footer-wrap-link {
+    gap: 50px;
+  }
+  .footer {
+    padding: 50px 32px;
+  }
+
+  .footer-wrap {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .footer-title {
+    font-size: 28px;
+    line-height: 34px;
+  }
+
+  .footer-link-list {
+    flex-direction: row;
+    gap: 24px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer {
+    padding: 60px 32px;
+  }
+
+  .footer-wrap {
+    max-width: 1136px;
+    margin: 0 auto;
+  }
+
+  .footer-link-list {
+    max-width: 1136px;
+    margin: 40px auto 0;
+  }
+  .footer-wrap-link {
+    display: flex;
+    gap: 63px;
+    flex-direction: row;
+  }
+}
