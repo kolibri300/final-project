@@ -3,13 +3,13 @@ section.chocolate1 {
     padding-bottom: 72px;
     .chocolate-wrap {
       border-radius: 30px;
-      background-image: url("src/img/background/bagchocMob@1x.jpg");
+      background-image: url("/final-project/assets/background/bagchocMob@1x.jpg");
       @media (min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
         (min-resolution: 2dppx) {
         background-image:
           linear-gradient(#00000033, #00000033),
-          url("src/img/background/bagchocMob@2x.jpg");
+          url("/final-project/assets/background/bagchocMob@2x.jpg");
       }
       height: 620px;
       padding: 20px;
@@ -73,12 +73,12 @@ section.chocolate1 {
   }
   @media screen and (min-width: 768px) {
     .chocolate-wrap {
-      background-image: url("src/img/background/bagchocTab@1x.jpg");
+      background-image: url("/final-project/assets/background/bagchocTab@1x.jpg");
 
       @media (min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
         (min-resolution: 2dppx) {
-        background-image: url("src/img/background/bagchocTab@2x.jpg");
+        background-image: url("/final-project/assets/background/bagchocTab@2x.jpg");
       }
       padding: 40px;
       padding-top: 671px;
@@ -117,11 +117,11 @@ section.chocolate1 {
     }
     .chocolate-wrap {
       position: relative;
-      background-image: url("src/img/background/bagchocDes@1x.jpg");
+      background-image: url("/final-project/assets/background/bagchocDes@1x.jpg");
       @media (min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
         (min-resolution: 2dppx) {
-        background-image: url("src/img/background/bagchocDes@2x.jpg");
+        background-image: url("/final-project/assets/background/bagchocDes@2x.jpg");
       }
       height: 600px;
       padding-top: 381px;
